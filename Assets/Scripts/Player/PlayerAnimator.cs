@@ -6,7 +6,7 @@ namespace Player {
         private PlayerMovement playerMovement;
 
         // Parametros animator
-        private int isMoving = Animator.StringToHash("isMoving");
+        private readonly int isMoving = Animator.StringToHash("isMoving");
 
         private void Awake() {
             animator = GetComponent<Animator>();
